@@ -54,7 +54,7 @@ def get_plate_numbers_for_rec_plate(plate_image):
     padding[180:290, 0:470, :] = plate_image
     # padding = cv2.cvtColor(np.float32(padding), cv2.COLOR_BGR2GRAY)
     # padding = cv2.merge((padding, padding, padding))
-    cv2.imwrite("temp.jpg", padding)
+    # cv2.imwrite("temp.jpg", padding)
     padding_resize = Image.fromarray(np.uint8(padding)).convert('RGB')
     # path = "/home/vdtc/ALPR/test_components/data_2022_03_29/plate_image_train/%d.jpg" % image_count
     # padding_resize.save(path)
