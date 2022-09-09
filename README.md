@@ -2,7 +2,7 @@
 
 1. Clone the repo \
 2. Run command: 
-## install --upgrade pip
+## pip install --upgrade pip
 ## pip install --no-cache-dir -r requirements.txt
 3. Run main.py (recommend using VScode or Pycharm).\
 For testing open test.py, choose any image then replace line 6's imgPath to the image's location path. \
