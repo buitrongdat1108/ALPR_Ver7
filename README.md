@@ -1,4 +1,4 @@
-# ALPR_Ver7
+# Vietnamese's Automatic License Plate Recognition
 
 Clone the repo and run main.py
 
