@@ -1,4 +1,4 @@
-# Vietnamese's Automatic License Plate Recognition
+# Vietnamese's Automated License Plate Recognition
 
 1. Clone the repo \
 2. Run command: 
