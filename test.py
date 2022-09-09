@@ -3,7 +3,7 @@ import time
 import requests
 
 
-imgPath = "/home/datbt/ALPR/data_2022_03_29/camera_bienso/2233785415252557522_1_0_03_20220329021230.jpg"  
+imgPath = "./test_images/2233785415252553170_1_0_04_20220329011843.jpg"
 with open(imgPath, "rb") as image_file:
     encodedByte = base64.b64encode(image_file.read())
     encodedString = encodedByte.decode('utf-8')
