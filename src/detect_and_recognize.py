@@ -1,8 +1,12 @@
 import base64
 import cv2
 import numpy as np
+import tensorflow as tf
 from keras.models import model_from_json
 from PIL import Image
+
+# tf.config.list_physical_devices('GPU')
+
 LP_DETECTION_CFG = {
     "wpod-net_update1.json": "./src/weight_folder/wpod-net_update1.json",
     "wpod-net_update1.h5": "./src/weight_folder/wpod-net_update1.h5"
